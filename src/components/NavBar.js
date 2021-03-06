@@ -29,7 +29,7 @@ function NavBar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to='' className='navbar-logo' onClick={closeMobileMenu}>
-                    Mohammed Qureshi &nbsp; <i className="fas fa-male"/>
+                    <i class="fab fa-dev"/> &nbsp;Mohammed Qureshi &nbsp;
                 </Link>
                 <div className='menu-icon' onClick={clickHandler}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -56,7 +56,6 @@ function NavBar() {
                         </Link>
                     </li>
                 </ul>
-                {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
             </div>
         </nav>
         </>

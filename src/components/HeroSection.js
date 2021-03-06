@@ -11,8 +11,9 @@ function HeroSection() {
             <h1> Adventure Awaits </h1>
             <p> Lets get started! </p>
             <div className="hero-btns">
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>GET STARTED</Button>
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>CONTACT ME</Button>
+                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>&nbsp;ABOUT ME&nbsp;<i class="far fa-arrow-alt-circle-right"/>&nbsp;</Button>
+                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>CONTACT ME&nbsp;<i class="fas fa-address-book"></i></Button>
             </div>
         </div>
     )
