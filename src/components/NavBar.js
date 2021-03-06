@@ -29,7 +29,7 @@ function NavBar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to='' className='navbar-logo' onClick={closeMobileMenu}>
-                    Mohammed Faisal Qureshi &nbsp; <i className="fas fa-male"/>
+                    Mohammed Qureshi &nbsp; <i className="fas fa-male"/>
                 </Link>
                 <div className='menu-icon' onClick={clickHandler}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
