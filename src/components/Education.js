@@ -5,7 +5,7 @@ function Education({logo, universityname, degree, dateattendeed, location, modul
     return(
         <div className="Education">
             <div className="CompanyLogo">
-                <img class="companylogoimg" src={logo} alt="image"/>
+                <img class="companylogoimg" src={logo} alt="complogo"/>
             </div>
             <div className="EducationInfo">
                 <h2 className="jobtitlecss"> {universityname} </h2>

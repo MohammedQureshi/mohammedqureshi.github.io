@@ -5,7 +5,7 @@ function Experience({logo, jobtitle, company, dateworked, location, description}
     return(
         <div className="Experience">
             <div className="CompanyLogo">
-                <img class="companylogoimg" src={logo} alt="image"/>
+                <img class="companylogoimg" src={logo} alt="complogo"/>
             </div>
             <div className="CompanyInfo">
                 <h2 className="jobtitlecss"> {jobtitle} </h2>

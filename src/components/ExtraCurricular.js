@@ -5,7 +5,7 @@ function ExtraCurricular({logo, date, certification}){
     return(
         <div className="ExtraCurr">
             <div className="complogo">
-                <img class="complogoimg" src={logo} alt="image"/>
+                <img class="complogoimg" src={logo} alt="complogo"/>
             </div>
             <div className="CurrInfo">
                 <h2 className="CurrTitle"> {certification} </h2>
