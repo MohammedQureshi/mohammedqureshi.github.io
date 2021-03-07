@@ -1,10 +1,11 @@
 import React from 'react';
 import '../../App.css';
+import AboutMeSection from '../AboutMeSection/AboutMeSection'
 
 function AboutMe(){
     return(
         <>
-            <h1 className="about-me"> UNDER CONSTRUCTION </h1>
+            <AboutMeSection />
         </>
     )
 }

@@ -1,12 +1,12 @@
-import React from 'react';
-import '../../App.css';
+import React from 'react'
+import './ProjectsSection.css'
 
-function ContactMe(){
+function ProjectSection(){
     return(
-        <div className="contact-me">
+        <div className="projects">
             <h1> UNDER CONSTRUCTION </h1>
-            <p className="paragraph-text"> HELLO WORLD </p>
-            <h1> UNDER CONSTRUCTION </h1>
+            <p> HELLO WORLD </p>
+            <h1>New Page</h1>
             <h1> UNDER CONSTRUCTION </h1>
             <h1> UNDER CONSTRUCTION </h1>
             <h1> UNDER CONSTRUCTION </h1>
@@ -22,4 +22,4 @@ function ContactMe(){
     )
 }
 
-export default ContactMe;
+export default ProjectSection;

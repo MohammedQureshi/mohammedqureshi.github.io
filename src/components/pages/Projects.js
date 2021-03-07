@@ -1,10 +1,11 @@
 import React from 'react';
 import '../../App.css';
+import ProjectSection from '../ProjectsSection/ProjectsSection'
 
 function Projects(){
     return(
         <>
-            <h1 className="projects"> UNDER CONSTRUCTION </h1>
+            <ProjectSection />
         </>
     )
 }
