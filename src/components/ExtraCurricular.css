@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.ExtraCurr {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+.complogo{
+    float: left;
+    padding-right: 10px;
+    margin-top: 7px
+}
+
+.CurrInfo{
+    float: right;
+}
+
+.CurrTitle{
+    font-size: 25px;
+}
+
+
+.companylogoimg{
+    width: 50px;
+    height: 50px;
+}
+
+.compname{
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.companyinfogrey{
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(194, 194, 194);
+}
