@@ -9,7 +9,7 @@ function ExtraCurricular({logo, date, certification}){
             </div>
             <div className="CurrInfo">
                 <h2 className="CurrTitle"> {certification} </h2>
-                <h2 className="compname">{date}</h2>
+                <h2 className="compinfogrey">{date}</h2>
             </div>
         </div>
     )
