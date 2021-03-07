@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.7964f264.chunk.css",
-    "main.js": "/static/js/main.b66fe7b1.chunk.js",
-    "main.js.map": "/static/js/main.b66fe7b1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1a3a5970.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1a3a5970.js.map",
-    "static/js/2.d239cd83.chunk.js": "/static/js/2.d239cd83.chunk.js",
-    "static/js/2.d239cd83.chunk.js.map": "/static/js/2.d239cd83.chunk.js.map",
-    "static/js/3.be353de3.chunk.js": "/static/js/3.be353de3.chunk.js",
-    "static/js/3.be353de3.chunk.js.map": "/static/js/3.be353de3.chunk.js.map",
+    "main.css": "/static/css/main.003345d7.chunk.css",
+    "main.js": "/static/js/main.fec7078b.chunk.js",
+    "main.js.map": "/static/js/main.fec7078b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4a2cad67.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4a2cad67.js.map",
+    "static/js/2.ed7409ea.chunk.js": "/static/js/2.ed7409ea.chunk.js",
+    "static/js/2.ed7409ea.chunk.js.map": "/static/js/2.ed7409ea.chunk.js.map",
+    "static/js/3.74f6e8b6.chunk.js": "/static/js/3.74f6e8b6.chunk.js",
+    "static/js/3.74f6e8b6.chunk.js.map": "/static/js/3.74f6e8b6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7964f264.chunk.css.map": "/static/css/main.7964f264.chunk.css.map",
-    "static/js/2.d239cd83.chunk.js.LICENSE.txt": "/static/js/2.d239cd83.chunk.js.LICENSE.txt",
+    "static/css/main.003345d7.chunk.css.map": "/static/css/main.003345d7.chunk.css.map",
+    "static/js/2.ed7409ea.chunk.js.LICENSE.txt": "/static/js/2.ed7409ea.chunk.js.LICENSE.txt",
+    "static/media/CircleProfile.168bb9d5.png": "/static/media/CircleProfile.168bb9d5.png",
     "static/media/background-video.37ab7b00.mp4": "/static/media/background-video.37ab7b00.mp4",
-    "static/media/App.css": "/static/media/img-8.fabdf94d.jpg"
+    "static/media/edgehilluniversity.0a88bbdc.png": "/static/media/edgehilluniversity.0a88bbdc.png",
+    "static/media/App.css": "/static/media/img-9.f97f588f.jpg",
+    "static/media/iqblade.d349ba71.png": "/static/media/iqblade.d349ba71.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1a3a5970.js",
-    "static/js/2.d239cd83.chunk.js",
-    "static/css/main.7964f264.chunk.css",
-    "static/js/main.b66fe7b1.chunk.js"
+    "static/js/runtime-main.4a2cad67.js",
+    "static/js/2.ed7409ea.chunk.js",
+    "static/css/main.003345d7.chunk.css",
+    "static/js/main.fec7078b.chunk.js"
   ]
 }
