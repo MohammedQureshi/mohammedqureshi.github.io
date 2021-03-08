@@ -19,13 +19,13 @@ function Cards() {
                     src={img9}
                     text='3D Game Engine made in Java using LWJGL Library'
                     label='LWJGL'
-                    path='/services'
+                    path='/projects'
                     />
                     <CardItem
                     src={img2}
                     text='2D Game Engine made in pure Java with A* algorithm'
                     label='Java'
-                    path='/404'
+                    path='/projects'
                     />
                 </ul>
                 <ul className='cards__items'>
@@ -33,19 +33,19 @@ function Cards() {
                     src={img3}
                     text='Discord bot with custom functionality'
                     label='Javascript'
-                    path='/404'
+                    path='/projects'
                     />
                     <CardItem
                     src={img4}
                     text='Collocation and Sentiment Analysis'
                     label='HTML/CSS'
-                    path='/404'
+                    path='/projects'
                     />
                     <CardItem
                     src={img8}
                     text='Web Application in Spring with a SQL and Java backend'
                     label='Spring MVC'
-                    path='/404-up'
+                    path='/projects'
                     />
                 </ul>
                 <ul className='cards__items'>
@@ -53,25 +53,25 @@ function Cards() {
                     src={fourofour}
                     text='Robot Juice Web Development'
                     label='HTML/CSS'
-                    path='/404'
+                    path='/projects'
                     />
                     <CardItem
                     src={fourofour}
                     text='Space Invaders in Java'
                     label='Java'
-                    path='/404'
+                    path='/projects'
                     />
                     <CardItem
                     src={fourofour}
                     text='Twitter clone'
                     label='React-Native'
-                    path='/404-up'
+                    path='/projects'
                     />
                     <CardItem
                     src={fourofour}
                     text='GitHub Pages'
-                    label='React'
-                    path='/404-up'
+                    label='ReactJS'
+                    path='/projects'
                     />
                 </ul>
                 </div>
