@@ -38,7 +38,7 @@ function Cards() {
                     <CardItem
                     src={img4}
                     text='Collocation and Sentiment Analysis'
-                    label='HTML/CSS'
+                    label='Python'
                     path='/projects'
                     />
                     <CardItem
