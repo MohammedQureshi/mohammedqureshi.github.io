@@ -15,7 +15,7 @@ function Cards() {
     return (
         <div className='cards'>
             <h1>CHECK OUT MY PROJECTS</h1>
-            <a href="https://github.com/MohammedQureshi"><p> https://github.com/MohammedQureshi </p></a>
+            <a href="https://github.com/MohammedQureshi"><p className="URL"> https://github.com/MohammedQureshi </p></a>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                 <ul className='cards__items'>
