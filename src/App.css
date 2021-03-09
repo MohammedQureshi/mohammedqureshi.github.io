@@ -29,7 +29,7 @@
   }
   
   .projects {
-    background-image: url('./components/images/img-7.jpg');
+    background-image: url('./components/images/img-3.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -42,7 +42,7 @@
   }
   
   .contact-me {
-    background-image: url('./components/images/img-9.jpg');
+    background-image: url('./components/images/img-10.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -50,6 +50,5 @@
     height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
-    overflow: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
   }
