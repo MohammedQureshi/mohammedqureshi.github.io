@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6165def.chunk.css",
+    "main.css": "/static/css/main.a7b7dddf.chunk.css",
     "main.js": "/static/js/main.90f46ec9.chunk.js",
     "main.js.map": "/static/js/main.90f46ec9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.92a7e109.js",
@@ -10,7 +10,7 @@
     "static/js/3.f7eace1a.chunk.js": "/static/js/3.f7eace1a.chunk.js",
     "static/js/3.f7eace1a.chunk.js.map": "/static/js/3.f7eace1a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b6165def.chunk.css.map": "/static/css/main.b6165def.chunk.css.map",
+    "static/css/main.a7b7dddf.chunk.css.map": "/static/css/main.a7b7dddf.chunk.css.map",
     "static/js/2.0f48942c.chunk.js.LICENSE.txt": "/static/js/2.0f48942c.chunk.js.LICENSE.txt",
     "static/media/404.2ba2296f.jpg": "/static/media/404.2ba2296f.jpg",
     "static/media/CircleProfile.168bb9d5.png": "/static/media/CircleProfile.168bb9d5.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.92a7e109.js",
     "static/js/2.0f48942c.chunk.js",
-    "static/css/main.b6165def.chunk.css",
+    "static/css/main.a7b7dddf.chunk.css",
     "static/js/main.90f46ec9.chunk.js"
   ]
 }
