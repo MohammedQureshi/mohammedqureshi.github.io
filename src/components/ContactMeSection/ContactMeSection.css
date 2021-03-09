@@ -46,3 +46,27 @@
 .fa-linkedin:before{
     color:black;
 }
+
+@media only screen and (max-width: 960px) {
+    .leftcontact{
+        float: center;
+    }
+    .rightcontact{
+        float: none;
+    }
+    .contactHeader{
+        font-size: 60px;
+        text-align: center;
+    }
+    .contactbody{
+        height: calc(100vh -60px);
+    }
+    .contactText{
+        font-size: 20px;
+    }
+
+    .contactbody{
+        margin: 2rem;
+        padding: 0px;
+    }
+  }

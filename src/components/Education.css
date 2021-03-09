@@ -35,3 +35,16 @@
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: rgb(194, 194, 194);
 }
+
+@media only screen and (max-width: 960px) {
+    .Education {
+        flex-direction: column;
+    }
+    .CompanyLogo{
+        float: none;
+    }
+    
+    .EducationInfo{
+        float: none;
+    }  
+}
