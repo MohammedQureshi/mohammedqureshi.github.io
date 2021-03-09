@@ -6,12 +6,16 @@ import img2 from './images/game.png';
 import img3 from './images/discordbot.png';
 import img4 from './images/python.png';
 import img8 from './images/spring.png';
+import robot from './images/robot.png';
+import react from './images/react.png';
+import reactnative from './images/reactnative.png';
 import fourofour from './images/404.jpg';
 
 function Cards() {
     return (
         <div className='cards'>
             <h1>CHECK OUT MY PROJECTS</h1>
+            <a href="https://github.com/MohammedQureshi"><p> https://github.com/MohammedQureshi </p></a>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                 <ul className='cards__items'>
@@ -50,25 +54,19 @@ function Cards() {
                 </ul>
                 <ul className='cards__items'>
                     <CardItem
-                    src={fourofour}
+                    src={robot}
                     text='Robot Juice Web Development'
                     label='HTML/CSS'
                     path='/projects'
                     />
                     <CardItem
-                    src={fourofour}
-                    text='Space Invaders in Java'
-                    label='Java'
-                    path='/projects'
-                    />
-                    <CardItem
-                    src={fourofour}
+                    src={reactnative}
                     text='Twitter clone'
                     label='React-Native'
                     path='/projects'
                     />
                     <CardItem
-                    src={fourofour}
+                    src={react}
                     text='GitHub Pages'
                     label='ReactJS'
                     path='/projects'

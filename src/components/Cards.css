@@ -6,6 +6,17 @@
     text-align: center;
   }
   
+  p{
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
   .cards__container {
     display: flex;
     flex-flow: column;
