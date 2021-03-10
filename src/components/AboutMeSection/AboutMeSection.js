@@ -40,11 +40,11 @@ function AboutMeSection(){
                 <h2> Education </h2>
                 <Education logo={edgehilluniversity} universityname="Edge Hill University" degree="BSc Computer Science 2.1" dateattendeed="September 2017 - May 2020" location="Ormskirk, England, United Kingdom" modules="Foundations of Computer Science, Digital World, Programming, Web Design and Development, Databases, Employability, Data Analytics, Statistical Inference, Introduction to Security, Software Engineering, Research and Development Project, Complex System, Research and Development Methods, Mathematical Models, Internet Security. " researchproject="I conducted research on product reviews for a set company and set up a program where I will be able to use AI to analyse the review and detect the emotions that It gives off to help support business in improving their product. Features will be added to automatically analyse certain features within the product itself. "/>
                 <h2> Licenses & Certifications </h2>
-                <Experience logo={sas} jobtitle="SAS Programming 1: Essentrials" company="SAS" dateworked="Issued January 2020"/>
+                <Experience logo={sas} jobtitle="SAS Programming 1: Essentials" company="SAS" dateworked="Issued January 2020"/>
                 <Experience logo={microsoft} jobtitle="MTA - HTML5 Application Development Fundamentals" company="Microsoft" dateworked="Issued April 2018"/>
                 <h2> Extra-Curricular Technical Learning </h2>
                 <ExtraCurricular logo={roq} date="January 2020" certification="ROQ Test Lab Visits" />
-                <ExtraCurricular logo={roq} date="November 2019" certification="ROQ Defectives Challengew" />
+                <ExtraCurricular logo={roq} date="November 2019" certification="ROQ Defectives Challenge" />
                 <ExtraCurricular logo={barclays} date="November 2018" certification="Barclays Technology Challenge" />
                 <ExtraCurricular logo={ukfast} date="October 2018" certification="UK FAST Cyber Challenge" />
                 <ExtraCurricular logo={milexa} date="October 2018" certification="Milexa Web Challenge" />
