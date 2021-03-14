@@ -8,6 +8,7 @@ import img4 from './images/python.png';
 import img8 from './images/spring.png';
 import robot from './images/robot.png';
 import react from './images/react.png';
+import springreact from './images/springreact.png';
 import reactnative from './images/reactnative.png';
 import fourofour from './images/404.jpg';
 
@@ -29,6 +30,12 @@ function Cards() {
                     src={img2}
                     text='2D Game Engine made in pure Java with A* algorithm'
                     label='Java'
+                    path='/projects'
+                    />
+                    <CardItem
+                    src={springreact}
+                    text='SpringBoot Backend, React JS Frontend'
+                    label='SpringBoot/React'
                     path='/projects'
                     />
                 </ul>
