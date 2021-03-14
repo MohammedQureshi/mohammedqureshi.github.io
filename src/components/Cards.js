@@ -10,7 +10,9 @@ import robot from './images/robot.png';
 import react from './images/react.png';
 import springreact from './images/springreact.png';
 import reactnative from './images/reactnative.png';
+import shapelydemo from './images/shapelydemo.PNG'
 import fourofour from './images/404.jpg';
+import reactnativelogin from './images/reactnativelogin.PNG';
 
 function Cards() {
     return (
@@ -32,10 +34,24 @@ function Cards() {
                     label='Java'
                     path='/projects'
                     />
-                    <CardItem
+                </ul>
+                <ul className='cards__items'>
+                <CardItem
                     src={springreact}
                     text='SpringBoot Backend, React JS Frontend'
                     label='SpringBoot/React'
+                    path='/projects'
+                    />
+                    <CardItem
+                    src={shapelydemo}
+                    text='Recreating Shapely Demo website'
+                    label='Angular'
+                    path='/projects'
+                    />
+                    <CardItem
+                    src={reactnative}
+                    text='Twitter clone'
+                    label='React-Native'
                     path='/projects'
                     />
                 </ul>
@@ -55,7 +71,7 @@ function Cards() {
                     <CardItem
                     src={img8}
                     text='Web Application in Spring with a SQL and Java backend'
-                    label='Spring MVC'
+                    label='Spring MVC/Maven/SQL'
                     path='/projects'
                     />
                 </ul>
@@ -67,8 +83,8 @@ function Cards() {
                     path='/projects'
                     />
                     <CardItem
-                    src={reactnative}
-                    text='Twitter clone'
+                    src={reactnativelogin}
+                    text='Standalone Mobile Application'
                     label='React-Native'
                     path='/projects'
                     />
