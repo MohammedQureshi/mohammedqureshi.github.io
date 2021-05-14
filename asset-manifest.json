@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7b7dddf.chunk.css",
-    "main.js": "/static/js/main.bf6e480a.chunk.js",
-    "main.js.map": "/static/js/main.bf6e480a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.92a7e109.js",
-    "runtime-main.js.map": "/static/js/runtime-main.92a7e109.js.map",
-    "static/js/2.0f48942c.chunk.js": "/static/js/2.0f48942c.chunk.js",
-    "static/js/2.0f48942c.chunk.js.map": "/static/js/2.0f48942c.chunk.js.map",
-    "static/js/3.f7eace1a.chunk.js": "/static/js/3.f7eace1a.chunk.js",
-    "static/js/3.f7eace1a.chunk.js.map": "/static/js/3.f7eace1a.chunk.js.map",
+    "main.css": "/static/css/main.7a41ccf6.chunk.css",
+    "main.js": "/static/js/main.54d10b30.chunk.js",
+    "main.js.map": "/static/js/main.54d10b30.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.80428eed.js",
+    "runtime-main.js.map": "/static/js/runtime-main.80428eed.js.map",
+    "static/js/2.b3d8e685.chunk.js": "/static/js/2.b3d8e685.chunk.js",
+    "static/js/2.b3d8e685.chunk.js.map": "/static/js/2.b3d8e685.chunk.js.map",
+    "static/js/3.65fae69f.chunk.js": "/static/js/3.65fae69f.chunk.js",
+    "static/js/3.65fae69f.chunk.js.map": "/static/js/3.65fae69f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a7b7dddf.chunk.css.map": "/static/css/main.a7b7dddf.chunk.css.map",
-    "static/js/2.0f48942c.chunk.js.LICENSE.txt": "/static/js/2.0f48942c.chunk.js.LICENSE.txt",
+    "static/css/main.7a41ccf6.chunk.css.map": "/static/css/main.7a41ccf6.chunk.css.map",
+    "static/js/2.b3d8e685.chunk.js.LICENSE.txt": "/static/js/2.b3d8e685.chunk.js.LICENSE.txt",
     "static/media/404.2ba2296f.jpg": "/static/media/404.2ba2296f.jpg",
+    "static/media/HeroSection.css": "/static/media/CherishToday.0b6af721.ttf",
     "static/media/CircleProfile.168bb9d5.png": "/static/media/CircleProfile.168bb9d5.png",
     "static/media/background-video.37ab7b00.mp4": "/static/media/background-video.37ab7b00.mp4",
     "static/media/barclays.4f98f6a0.png": "/static/media/barclays.4f98f6a0.png",
@@ -34,9 +35,9 @@
     "static/media/springreact.0805a3b3.png": "/static/media/springreact.0805a3b3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.92a7e109.js",
-    "static/js/2.0f48942c.chunk.js",
-    "static/css/main.a7b7dddf.chunk.css",
-    "static/js/main.bf6e480a.chunk.js"
+    "static/js/runtime-main.80428eed.js",
+    "static/js/2.b3d8e685.chunk.js",
+    "static/css/main.7a41ccf6.chunk.css",
+    "static/js/main.54d10b30.chunk.js"
   ]
 }
