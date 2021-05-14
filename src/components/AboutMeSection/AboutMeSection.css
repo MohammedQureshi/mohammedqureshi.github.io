@@ -13,17 +13,13 @@ about-me {
     object-fit: contain;
 }
 
-h1{
-    color: #fff;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 400;
+.spacer{
+    margin-top: 60px
 }
 
-h2{
-    color: #fff;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 400;
-    font-size: 1.2em;
+.font-white{
+    color: white;
+    font-size:40px;
 }
 
 p{

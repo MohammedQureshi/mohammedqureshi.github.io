@@ -10,7 +10,6 @@
   .projects,
   .contact-me {
     display: flex;
-    height: 90vh;
     align-items: center;
     font-size: 3rem;
   }
@@ -21,10 +20,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
-    overflow: scroll;
     overflow-x: hidden;
   }
   
@@ -34,10 +31,8 @@
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-    height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
-    overflow: scroll;
     overflow-x: hidden;
   }
   
@@ -47,9 +42,9 @@
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
-    height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
     overflow: scroll;
     overflow-x: hidden;
+    height: 100vh;
   }

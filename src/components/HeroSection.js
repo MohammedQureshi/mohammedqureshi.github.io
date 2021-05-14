@@ -3,18 +3,50 @@ import '../App.css';
 import { Button } from './Button'
 import './HeroSection.css';
 import video from "./videos/background-video.mp4";
+import Typical from 'react-typical'
+import SliderExperiance from './slider-experiance/SliderExperiance'
 
+function scrollPage(pageNumber){
+    let height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) *pageNumber;
+    window.scrollTo({
+        top: height,
+        behavior: 'smooth'     
+    })
+}
 function HeroSection() {
-    
     return (
-        <div className='hero-container'>
-            <video src={video} autoPlay loop muted />
-            <h1> Adventure Awaits </h1>
-            <p> Lets get started! </p>
-            <div className="hero-btns">
-                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' redirectURL="/about-me">&nbsp;ABOUT ME&nbsp;<i class="far fa-arrow-alt-circle-right"/>&nbsp;</Button>
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' redirectURL="/contact-me">CONTACT ME&nbsp;<i class="fas fa-address-book"></i></Button>
+        <div>
+            <div className='hero-container'>
+                    <div className="centre-text">
+                        <div className='typewriter'><h1> LOOKING FOR A DEVELOPER </h1></div>
+                        <div className='typewriter'>
+                            <h1> That is {' '}</h1>
+                            <Typical
+                                steps={['Enthusiastic', 2000, 'Hard Working', 2000, 'Motivated', 2000, 'Consistent', 2000,'Accountable', 2000]}
+                                loop={Infinity}
+                                wrapper="h1"
+                                className="typingtext"/>
+                        </div>
+                    </div>
+                    <div className="scroll-about-me" onClick={() => scrollPage(1)}>
+                        <p> Scroll Down </p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    
+            </div>
+            <div className='aboutme'>
+                    <h1> Under Construction</h1>
+                    <div className="scroll-about-me" onClick={() => scrollPage(2)}>
+                        <p> Scroll Down </p>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+            </div>
+            <div className='random'>
+                <h1> Under Construction</h1>
+                <div className="scroll-about-me" onClick={scrollPage}>
+                    <p> Back to the Top </p>
+                    <i class="fas fa-chevron-up"></i>
+                </div>
             </div>
         </div>
     )

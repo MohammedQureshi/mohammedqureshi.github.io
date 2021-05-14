@@ -13,10 +13,17 @@
 
 .CompanyInfo{
     float: right;
+    
+}
+
+.companyname{
+    color: white;
+    font-weight: 400;
 }
 
 .jobtitlecss{
     font-size: 30px;
+    color: white;
 }
 
 

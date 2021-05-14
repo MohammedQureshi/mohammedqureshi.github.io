@@ -1,28 +1,55 @@
-video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
+.hero-container{
+  background: linear-gradient(to top right, #2566ae, #65d3fa);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding-top: 1px;
 }
 
-hero-container {
-    /* background: url('images/img-home.jpg') center center/cover no-repeat; */
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
+.aboutme{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(to bottom right, #9e25ae, #af2078);
+}
+
+.random{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(to top right, #2566ae, #65d3fa);
+}
+
+.scroll-about-me{
+  position:absolute;
+  width:300px;
+  bottom:0px;
+  right:25%;
+  left:50%;
+  margin-left:-150px;
+  text-align: center;
+  font-size: 40px;
+  color: #89c0e4;
+}
+
+.scroll-about-me p{
+  font-family: 'CherishToday';
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+
+.centre-text{
+  margin-top: 35vh;
+}
+
+.typingtext{
+  color: #0f5298;
 }
 
 .hero-container > h1 {
     color: #fff;
     font-size: 100px;
     text-align: center;
-    padding-top: 15%;
   }
 
 .hero-container > p {
@@ -41,6 +68,27 @@ hero-container {
 
 .hero-btns .btn {
   margin: 6px;
+}
+
+.typewriter h1{
+  display: inline;
+  font-size: 100px;
+}
+
+.typewriter{
+  margin: auto;
+  width: 40%;
+}
+
+h1{
+  font-family: 'CherishToday';
+  color: #effbff;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'CherishToday';
+  src: local('CherishToday'), url(fonts/CherishToday.ttf) format('truetype');
 }
 
 @media screen and (max-width: 960px){
