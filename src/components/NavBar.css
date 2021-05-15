@@ -133,10 +133,11 @@
       opacity: 1;	
       transition: all 0.5s ease;	
       font-family: 'CherishToday';
+      margin-top: 20px;
     }	
   
     .nav-menu.active {	
-      background: #242222;	
+      background: linear-gradient(to top right, #2566ae, #65d3fa);
       left: 0px;	
       opacity: 1;	
       transition: all 0.5s ease;	
@@ -173,6 +174,7 @@
       transform: translate(-100%, 30%);	
       font-size: 1.8rem;	
       cursor: pointer;	
+      margin-top: 20px;
     }	
   
     .fa-times {	
