@@ -41,11 +41,14 @@
     font-size: 30px;
 }
 
-.fa-instagram:before,
-.fa-github:before,
-.fa-linkedin:before{
+.rightcontact .fab{
     color:black;
 }
+
+.rightcontact .fa-envelope-open-text{
+    color:black;
+}
+
 
 @media only screen and (max-width: 960px) {
     .leftcontact{
