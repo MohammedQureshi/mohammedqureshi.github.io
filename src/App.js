@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home'
 import AboutMe from './components/pages/About-Me';
@@ -18,6 +19,7 @@ function App() {
         <Route path='/projects' exact component={Projects} />
         <Route path='/contact-me' exact component={ContactMe} />
       </Switch>
+      <Footer />
     </Router>
     </>
   );

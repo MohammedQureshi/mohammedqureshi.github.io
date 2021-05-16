@@ -62,7 +62,6 @@ function NavBar() {
                             </NavLink >
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>

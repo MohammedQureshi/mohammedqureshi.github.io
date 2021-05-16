@@ -135,11 +135,10 @@
       font-family: 'CherishToday';
       margin-top: 20px;
     }	
-  
+    
     .nav-menu.active {	
       background: linear-gradient(to top right, #2566ae, #65d3fa);
       left: 0px;	
-      opacity: 1;	
       transition: all 0.5s ease;	
       z-index: 1;	
       padding: 0;

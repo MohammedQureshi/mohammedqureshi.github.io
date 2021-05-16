@@ -8,8 +8,8 @@ function ExtraCurricular({logo, date, certification}){
                 <img class="complogoimg" src={logo} alt="complogo"/>
             </div>
             <div className="CurrInfo">
-                <h2 className="CurrTitle"> {certification} </h2>
-                <h2 className="compinfogrey">{date}</h2>
+                <h2 className="jobtitlecss"> {certification} </h2>
+                <h2 className="companyinfogrey">{date}</h2>
             </div>
         </div>
     )

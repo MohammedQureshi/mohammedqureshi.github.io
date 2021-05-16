@@ -1,0 +1,76 @@
+.jobtitlecss{
+    font-family: CherishToday;
+    font-weight: 100;
+}
+
+.header-title{
+    color: white;
+    font-family: CherishToday;
+    font-weight: 100;
+    font-size: 75px;
+}
+
+.profile-info{
+    float: right;
+    padding-top: 55px;
+    padding-left: 30px;
+}
+
+.profile-info p{
+    color: white;
+    font-family: CherishToday;
+    margin-top: -10px;
+}
+
+.about-me-body-text{
+    font-size: 30px;
+    font-weight: 100;
+
+}
+
+@media screen and (max-width: 960px){
+    .profile-info{
+        float: center;
+        padding: 0px;
+    }
+
+    .profile-info p{
+        font-size: 30px;
+    }
+
+    .myprofilepic{
+        margin-left: 0.8em;
+    }
+
+    .profile-overview{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        width: 80%;
+        align-items: center;
+    }
+
+    .header-title{
+        font-size: 50px;
+    }
+
+    .about-me-body-text{
+        font-size: 20px;
+    }
+
+    .information-area{
+        width: 90%; 
+    }
+
+    .cards h1{
+        font-size: 50px;
+        padding-top: 40px
+    }
+
+    .companylogoimg{
+        margin-left: 2.4em;
+    }
+    
+
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Education.css'
+import './Global.css'
 
 function Education({logo, universityname, degree, dateattendeed, location, modules, researchproject}){
     return(
