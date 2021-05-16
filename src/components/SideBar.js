@@ -3,7 +3,7 @@ import './SideBar.css'
 
 
 function navigatePage(website){
-    window.location.href = website;
+    window.open(website);
 }
 function SideBar(){
     return(
