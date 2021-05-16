@@ -60,13 +60,10 @@
     }
     .contactbody{
         height: 100vh;
+        margin-top: 70px;
     }
     .contactText{
         font-size: 20px;
     }
-
-    .contactbody{
-        margin: 2rem;
-        padding: 0px;
-    }
+    
   }
