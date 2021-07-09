@@ -30,6 +30,9 @@ body.light{
   --switch: var(--LightSwitch);
   --standing: var(--StandingLight);
   --laptop: var(--LaptopLight);
+  --onLaptop: var(--LightOnLaptop);
+  --panel: var(--LightPanel);
+  --sitting: var(--LightSitting);
 }
 
 body.dark {
@@ -39,4 +42,7 @@ body.dark {
   --switch: var(--DarkSwitch);
   --standing: var(--StandingDark);
   --laptop: var(--LaptopDark);
+  --onLaptop: var(--DarkOnLaptop);
+  --panel: var(--DarkPanel);
+  --sitting: var(--DarkSitting);
 }

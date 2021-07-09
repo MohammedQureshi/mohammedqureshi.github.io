@@ -1,0 +1,46 @@
+.programmingskills{
+    .programmingskills-header{
+        height: 100%;
+        min-height: 25px;
+        max-height: 25px;
+        background-color: #0092FF;
+
+        .circle{
+            position: relative;
+            width: 15px;
+            height: 15px;
+            background-color: white;
+            border-radius: 100%;
+            display: inline-block;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+    }
+    .programmingskills-container{
+        height: 100%;
+        min-height: 60px;
+        background-color: var(--panel);
+        max-height: calc(100vh - 400px);
+        overflow-y: scroll;
+
+        h1{
+            font-family: "sweet purple";
+            font-size: 80px;
+            color: var(--color)
+        }
+
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .programmingskills{
+        .programmingskills-container{
+            max-height: calc(100vh - 350px);
+            h1{
+                font-size: 50px;
+            }
+        }
+    }
+
+}

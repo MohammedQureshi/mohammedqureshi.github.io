@@ -1,7 +1,11 @@
 .HomePage{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow:scroll;
     .WelcomeSection{
         height: 100vh;
         position: relative;
+        scroll-snap-align: start;
         .MeStanding{
             content: var(--standing);
             bottom: 0;
@@ -44,16 +48,54 @@
     .AboutMeSection{
         height: 100vh;
         position: relative;
-        .MeStandingTwo{
-            content: url('../../images/LightStandingMe.svg');
-            bottom: 0;
+        scroll-snap-align: start;
+        .AboutMeText{
             position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            width: 50%;
+            margin-left: 50px;
+        }
+        .MeOnLaptop{
+            content: var(--onLaptop);
+            position: absolute;
+            top: 50%;
+            right: 0;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            margin-right: 150px;
+        }
+        h1{
+            color: (var(--color));
+            font-family: "sweet purple";
+            font-size: 80px;
+        }
+        p{
+            color: (var(--color));
+            font-family: "SimSun-ExtB";
+            font-size: 30px;
         }
     }
 
     .Skills{
         height: 100vh;
         position: relative;
+        scroll-snap-align: start;
+        .SkillSet{
+            max-width: 75%;
+            margin-left: auto;
+            margin-right: 100px;
+            padding-top: 150px;
+        }
+
+        .MeSitting{
+            content: var(--sitting);
+            bottom: 0;
+            margin-left: 50px;
+            position: absolute;
+            object-fit: cover;
+        }
     }
 
     .scroll-about-me{
@@ -112,5 +154,50 @@
     
             }
         }
+
+    .AboutMeSection{
+        .AboutMeText{
+            top: 0 ;
+            -ms-transform: translateY(0) ;
+            transform: translateY(0) ;
+            width: 90% ;
+            margin-left: 10px ;
+            margin-top: 100px;
+        }
+        .MeOnLaptop{
+            top: revert;
+            right: revert;
+            position: absolute;
+            width: 300px;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+        h1{
+            font-size: 70px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .scroll-about-me{
+            p{
+                font-size: 30px;
+            }
+        }
     }
+    
+    .Skills{
+        .SkillSet{
+            max-width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 100px;
+        }
+
+        .MeSitting{
+            width: 120px;
+            margin-left: 5px;
+        }
+    }
+}
 }
