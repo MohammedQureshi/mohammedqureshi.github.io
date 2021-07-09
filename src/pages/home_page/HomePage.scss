@@ -1,0 +1,116 @@
+.HomePage{
+    .WelcomeSection{
+        height: 100vh;
+        position: relative;
+        .MeStanding{
+            content: var(--standing);
+            bottom: 0;
+            margin-left: 50px;
+            position: absolute;
+            object-fit: cover;
+        }
+        .Laptop{
+            content: var(--laptop);
+            position: absolute;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: 100px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+        h1, h2{
+            font-family: "sweet purple";
+            margin-left: 180px;
+            margin-bottom: 465px;
+            bottom: 0;
+            position: absolute;
+            color: (var(--color));
+            font-weight: 100;
+        }
+        h1{
+            font-size: 70px;
+        }
+        h2{
+            font-size: 40px;
+            margin-bottom: 430px;
+            margin-left: 220px;
+            
+
+        }
+        
+    }
+
+    .AboutMeSection{
+        height: 100vh;
+        position: relative;
+        .MeStandingTwo{
+            content: url('../../images/LightStandingMe.svg');
+            bottom: 0;
+            position: absolute;
+        }
+    }
+
+    .Skills{
+        height: 100vh;
+        position: relative;
+    }
+
+    .scroll-about-me{
+        position:absolute;
+        width:300px;
+        bottom:0px;
+        right:25%;
+        left:50%;
+        margin-left:-150px;
+        text-align: center;
+        font-size: 40px;
+        color: var(--color);
+        cursor: pointer;
+      }
+      
+      .scroll-about-me p{
+        font-family: 'CherishToday';
+        font-size: 30px;
+        margin-bottom: -15px;
+      }
+}
+
+@media screen and (max-width: 960px) {
+    .HomePage{
+        .WelcomeSection{
+            height: 100vh;
+            position: relative;
+            .MeStanding{
+                width: 100px;
+                margin-left: 10px;
+            }
+            .Laptop{
+                width: 350px;
+                margin-top: 120px;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+            }
+            h1, h2{
+                font-family: "sweet purple";
+                margin-left: 90px;
+                margin-bottom: 270px;
+                bottom: 0;
+                position: absolute;
+                color: (var(--color));
+                font-weight: 100;
+            }
+            h1{
+                font-size: 40px;
+            }
+            h2{
+                font-size: 25px;
+                margin-bottom: 250px;
+                margin-left: 110px;
+                
+    
+            }
+        }
+    }
+}

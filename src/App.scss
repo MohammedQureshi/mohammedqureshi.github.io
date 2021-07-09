@@ -1,0 +1,42 @@
+@import './components/shared/DefaultColours';
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #CCCCCC;
+    border-radius: 1rem;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #afafaf;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background: var(--background);
+}
+
+body.light{
+  --background: var(--LightBackground);
+  --color: var(--LightText);
+  --hover-color: var(--LightTextHover);
+  --switch: var(--LightSwitch);
+  --standing: var(--StandingLight);
+  --laptop: var(--LaptopLight);
+}
+
+body.dark {
+  --background: var(--DarkBackground);
+  --color: var(--DarkText);
+  --hover-color: var(--DarkTextHover);
+  --switch: var(--DarkSwitch);
+  --standing: var(--StandingDark);
+  --laptop: var(--LaptopDark);
+}

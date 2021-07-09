@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'CherishToday';
+    src: local('CherishToday'), url(../../fonts/CherishToday.ttf) format('truetype');
+}
+
+:root{
+    --LightBackground: #F7F7F7;
+    --LightText:#707070;
+    --LightTextHover:#9e9e9e;
+    --LightSwitch: #ffffff;
+    --StandingLight: url(../../images/LightStandingMe.svg);
+    --LaptopLight: url(../../images/LightLaptop.svg);
+
+    --DarkBackground: #292929;
+    --DarkText: #D6D6D6;
+    --DarkTextHover: #b9b9b9;
+    --DarkSwitch: #434343;
+    --StandingDark: url(../../images/DarkStandingMe.svg);
+    --LaptopDark: url(../../images/DarkLaptop.svg);
+}
+
