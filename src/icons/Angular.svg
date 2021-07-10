@@ -1,18 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="98.279" height="102.864" viewBox="0 0 98.279 102.864">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-        stroke: #707070;
-        stroke-linejoin: round;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-    </style>
-  </defs>
   <g id="icons8-angularjs" transform="translate(1 1)">
-    <path id="Path_149" data-name="Path 149" class="cls-1" d="M51.986,3,4,19.7l7.583,62.175,40.453,21.988L92.7,81.577,100.279,19.4Z" transform="translate(-4 -3)"/>
-    <path id="Path_150" data-name="Path 150" class="cls-1" d="M22.171,71.186l6.377-13.738h26.5L61.43,71.186H71.6L41.8,7,12,71.186Z" transform="translate(6.339 2.169)"/>
-    <path id="Path_151" data-name="Path 151" class="cls-1" d="M30.074,16.5l9,19.513h-18Z" transform="translate(18.066 14.447)"/>
+    <path id="Path_149" data-name="Path 149" d="M51.986,3,4,19.7l7.583,62.175,40.453,21.988L92.7,81.577,100.279,19.4Z" transform="translate(-4 -3)" fill="none"  stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_150" data-name="Path 150" d="M22.171,71.186l6.377-13.738h26.5L61.43,71.186H71.6L41.8,7,12,71.186Z" transform="translate(6.339 2.169)" fill="none"  stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_151" data-name="Path 151" d="M30.074,16.5l9,19.513h-18Z" transform="translate(18.066 14.447)" fill="none"  stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
   </g>
 </svg>

@@ -32,11 +32,22 @@
                 display: flex;
                 list-style-type: none;
                 flex-wrap: wrap;
+                margin-bottom: 15px;
                 li{
-                    padding: 10px;
+                    padding: 15px;
+                    position: relative;
+                    svg{
+                        margin: 0 auto;
+                        width: 90px;
+
+                    }
                     h3{
                         text-align: center;
                         color: var(--color);
+                        position: absolute;
+                        bottom: 0;
+                        left:0;
+                        right: 0;
                     }
                 }
             }
@@ -57,6 +68,21 @@
             max-height: calc(100vh - 350px);
             h1{
                 font-size: 50px;
+            }
+            .programmingskills-skils{
+                ul{
+                    li{
+                        padding: 20px;
+                        svg{
+                            margin: 0 auto;
+                            width: 40px;
+    
+                        }
+                        h3{
+                            font-size: 15px;
+                        }
+                    }
+                }
             }
         }
     }
