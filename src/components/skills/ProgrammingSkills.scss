@@ -1,3 +1,6 @@
+.Random{
+    fill:"blue"
+}
 .programmingskills{
     .programmingskills-header{
         height: 100%;
@@ -23,6 +26,21 @@
         background-color: var(--panel);
         max-height: calc(100vh - 400px);
         overflow-y: scroll;
+
+        .programmingskills-skils{
+            ul{
+                display: flex;
+                list-style-type: none;
+                flex-wrap: wrap;
+                li{
+                    padding: 10px;
+                    h3{
+                        text-align: center;
+                        color: var(--color);
+                    }
+                }
+            }
+        }
 
         h1{
             font-family: "sweet purple";

@@ -30,7 +30,7 @@ function Navbar(){
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/experiance"
+                  to="/experience"
                   className="nav-links"
                   activeClassName="is-active"
                   onClick={closeMobileMenu}

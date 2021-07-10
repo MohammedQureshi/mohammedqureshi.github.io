@@ -10,8 +10,6 @@ import SocialBar from "./components/socialbar/SocialBar";
 import './components/shared/_DefaultColours.css';
 
 function App() {
-  //Calculate mass
-  
   return (
     <div>
       <Router>
@@ -19,7 +17,7 @@ function App() {
         <SocialBar />
         <Switch>
           <Route path="/" exact component={HomePage}/>
-          <Route path="/experiance" exact component={ExperiancePage}/>
+          <Route path="/experience" exact component={ExperiancePage}/>
           <Route path="/projects" exact component={Projects}/>
           <Route path="/contact" exact component={ContactMe} />
           <Route component={NotFound} />

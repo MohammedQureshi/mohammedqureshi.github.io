@@ -1,5 +1,6 @@
 import React from 'react'
 import './ProgrammingSkills.scss'
+import SkillList from './SkillList'
 
 function ProgrammingSkills(){
     return(
@@ -12,16 +13,7 @@ function ProgrammingSkills(){
             <div className="programmingskills-container">
                 <h1>Skills</h1>
                 <div className="programmingskills-skils">
-                    <h1>hello</h1>
-                    <h1>hello</h1>
-                    <h1>hello</h1>
-                    <h1>hello</h1>
-                    <h1>hello</h1>
-                    <h1>hello</h1>
-                    <h1>hello</h1>
-                    <h1>hello</h1>
-                    <h1>hello</h1>
-                    <h1>hello</h1>
+                    <SkillList  />
                 </div>
             </div>
         </div>

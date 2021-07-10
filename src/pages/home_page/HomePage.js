@@ -10,7 +10,7 @@ function HomePage() {
     const goToWelcome = () => welcome.current.scrollIntoView({behavior: 'smooth'})    
     const goToAbout = () => aboutme.current.scrollIntoView({behavior: 'smooth'})    
     const goToSkills = () => skills.current.scrollIntoView({behavior: 'smooth'})    
-    
+
     return (
         <div className="HomePage">
             <div className="WelcomeSection" ref={welcome}>

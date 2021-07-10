@@ -7,7 +7,6 @@ function Switch(){
     const darkTheme = "dark";
     let theme;
     const [darkMode, setDarkMode] = useState(false);
-  
     if(localStorage){
       theme = localStorage.getItem("theme");
     }
