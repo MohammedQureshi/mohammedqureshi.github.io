@@ -52,6 +52,7 @@
     .experience-cards{
         max-width: 1300px;
         z-index: 1;
+        width: 75vw;
         .experience-container{
             scroll-snap-type: x mandatory;
             display: flex;
@@ -102,6 +103,12 @@
             max-width: 238px;
         }
     }
+    .MeLeaning{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1900px){
     .MeLeaning{
         display: none;
     }
