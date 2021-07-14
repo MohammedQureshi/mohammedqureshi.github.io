@@ -1,6 +1,3 @@
-.Random{
-    fill:"blue"
-}
 .programmingskills{
     .programmingskills-header{
         height: 100%;
@@ -52,9 +49,10 @@
                 }
             }
         }
-
+        
         h1{
-            font-family: "sweet purple";
+            padding-left: 15px;
+            font-family: "SweetPurple";
             font-size: 80px;
             color: var(--color)
         }

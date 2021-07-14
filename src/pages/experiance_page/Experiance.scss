@@ -1,0 +1,108 @@
+.experience{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow:scroll;
+    overflow-x: hidden;
+    .top-panel{
+        height: 100vh;
+        position: relative;
+        scroll-snap-align: start;
+    }
+    .experience-title{
+        padding-top: 85px;
+        font-family: "SweetPurple";
+        font-size: 70px;
+        color: var(--color);
+        margin: 20px;
+        font-weight: 100;
+    }
+    .work-experience{
+        display: flex;
+
+        .MeLeaning{
+            content: var(--meleaning);
+            position: absolute;
+            width: 200px;
+            bottom:0;
+            right: 0;
+            margin-right: 150px;
+        }
+
+        .left-slider{
+            margin-left:auto;
+            color: var(--color);
+            font-size: 50px;
+            z-index: 1;
+        }
+
+        .right-slider{
+            margin-right: auto;
+            color: var(--color);
+            font-size: 50px;
+            z-index: 1;
+        }
+
+        button{
+            background: none;
+            border:none;
+            cursor: pointer;
+            padding: 30px;
+        }
+    }
+    .experience-cards{
+        max-width: 1300px;
+        z-index: 1;
+        .experience-container{
+            scroll-snap-type: x mandatory;
+            display: flex;
+            height: calc(100vh - 350px);
+            max-width: 1300px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            scroll-behavior: smooth;
+            .work{
+                scroll-snap-align: start;
+                display: flex;
+            }
+            
+        }
+    }
+
+    .education{
+        height: 100vh;
+        position: relative;
+        scroll-snap-align: start;
+    }
+    
+    .scroll-about-me{
+        position:absolute;
+        width:300px;
+        bottom:0px;
+        right:25%;
+        left:50%;
+        margin-left:-150px;
+        text-align: center;
+        font-size: 40px;
+        color: var(--color);
+        cursor: pointer;
+      }
+      
+      .scroll-about-me p{
+        font-family: 'CherishToday';
+        font-size: 30px;
+        margin-bottom: -15px;
+      }
+}
+
+@media screen and (max-width: 960px) {
+    .experience{
+        .experience-cards{
+            max-width: 238px;
+        }
+    }
+    .MeLeaning{
+        display: none;
+    }
+}

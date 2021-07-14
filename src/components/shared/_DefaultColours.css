@@ -3,6 +3,11 @@
     src: local('CherishToday'), url(../../fonts/CherishToday.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'SweetPurple';
+    src: local('SweetPurple'), url(../../fonts/SweetPurple.ttf) format('truetype');
+}
+
 :root{
     --LightBackground: #F7F7F7;
     --LightText:#707070;
@@ -13,6 +18,7 @@
     --LaptopLight: url(../../images/LightLaptop.svg);
     --LightOnLaptop: url(../../images/LightOnLaptop.svg);
     --LightSitting: url(../../images/LightSitting.svg);
+    --MeStandingLight: url(../../images/LightMeLeaning.svg);
 
     --DarkBackground: #292929;
     --DarkText: #D6D6D6;
@@ -23,5 +29,6 @@
     --LaptopDark: url(../../images/DarkLaptop.svg);
     --DarkOnLaptop: url(../../images/DarkOnLaptop.svg);
     --DarkSitting: url(../../images/DarkSitting.svg);
+    --MeStandingDark: url(../../images/DarkMeLeaning.svg);
 }
 
