@@ -25,7 +25,8 @@
             width: 200px;
             bottom:0;
             right: 0;
-            margin-right: 150px;
+            margin-right: -160px;
+            margin-bottom: -165px;
         }
 
         .left-slider{
@@ -50,6 +51,7 @@
         }
     }
     .experience-cards{
+        position: relative;
         max-width: 1300px;
         z-index: 1;
         width: 75vw;
