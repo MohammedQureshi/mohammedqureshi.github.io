@@ -2,7 +2,15 @@ import React,{useRef} from 'react'
 import './Experiance.scss'
 import WorkExperienceList from '../../components/work-experience/WorkExperience';
 import edgehilluniversity from '../../images/company_logos/edgehilluniversity.png'
+import sas from '../../images/company_logos/sas.png'
+import microsoft from '../../images/company_logos/microsoft.png'
+import roq from '../../images/company_logos/roq.png'
+import barclays from '../../images/company_logos/barclays.png'
+import ukfast from '../../images/company_logos/ukfast.png'
+import milexa from '../../images/company_logos/milexa.png'
+import linkedin from '../../images/company_logos/linkedin.png'
 import '../../components/card/Card.scss'
+import SlimCard from '../../components/SlimCard/SlimCard';
 
 function ExperiancePage() {
     const ref = useRef(null);
@@ -65,6 +73,9 @@ function ExperiancePage() {
                             <div className="circle" />
                         </div>
                         <div className="card-container">
+                            <SlimCard companylogo={linkedin} cert="Learning Java" company="LinkedIn" issued date="April 2021" />
+                            <SlimCard companylogo={sas} cert="SAS Programming 1: Essentials" company="SAS" issued date="January 2020" />
+                            <SlimCard companylogo={microsoft} cert="MTA - HTML5 Application Development Fundamentals" company="Microsoft" issued date="April 2018" />
                         </div>
                     </div>
                 </div>
@@ -77,7 +88,11 @@ function ExperiancePage() {
                             <div className="circle" />
                         </div>
                         <div className="card-container">
-                            <h1> Hello </h1>
+                            <SlimCard companylogo={roq} cert="Test Lab Visits" company="ROQ" date="January 2020" />
+                            <SlimCard companylogo={roq} cert="Defectives Challenge" company="ROQ" date="November 2019" />
+                            <SlimCard companylogo={barclays} cert="Technology Challenge" company="Barclays" date="November 2018" />
+                            <SlimCard companylogo={ukfast} cert="Cyber Challenge" company="UK FAST" date="October 2018" />
+                            <SlimCard companylogo={milexa} cert="Web Challenge" company="Milexa" date="October 2018" />
                         </div>
                     </div>
                 </div>

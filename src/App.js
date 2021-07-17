@@ -11,7 +11,7 @@ import './components/shared/_DefaultColours.css';
 
 function App() {
   return (
-    <div>
+    <>
       <Router>
         <Navbar />
         <SocialBar />
@@ -23,7 +23,7 @@ function App() {
           <Route component={NotFound} />
         </Switch>
       </Router>
-    </div>
+    </>
   );
 }
 
