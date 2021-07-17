@@ -2,18 +2,22 @@ import React,{useRef} from 'react'
 import './Experiance.scss'
 import WorkExperienceList from '../../components/work-experience/WorkExperience';
 import edgehilluniversity from '../../images/company_logos/edgehilluniversity.png'
+import '../../components/card/Card.scss'
 
 function ExperiancePage() {
     const ref = useRef(null);
     const scroll = (scrollOffset) => {
         ref.current.scrollLeft += scrollOffset;
       };
-
+    const workExperience = useRef(null);
+    const goToWorkExperience = () => workExperience.current.scrollIntoView({behavior: 'smooth'})    
     const education = useRef(null);
     const goToEducation = () => education.current.scrollIntoView({behavior: 'smooth'})    
+    const certification = useRef(null);
+    const goToCertification = () => certification.current.scrollIntoView({behavior: 'smooth'})    
     return (
         <div className="experience">            
-            <div className="top-panel">
+            <div className="top-panel" ref={workExperience}>
                 <h1 className="experience-title"> Work Experience </h1>
                 <div className="work-experience">
                     <button onClick={() => scroll(-420)} className="left-slider"><i className="fas fa-chevron-left" /></button>
@@ -44,9 +48,42 @@ function ExperiancePage() {
                     <p className="bold">Research and Development Project</p>
                     <p>I conducted research on product reviews for a set company and set up a program where I will be able to use AI to analyse the review and detect the emotions that It gives off to help support business in improving their product. Features will be added to automatically analyse certain features within the product itself.</p>
                 </div>
-                <div className="scroll-about-me" onClick={goToEducation}>
-                        <p> Go To Licenses And Certifications </p>
+                <div className="scroll-about-me" onClick={goToCertification}>
+                        <p> Go To Accomplishments </p>
                         <i className="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <div className="certification" ref={certification} >
+                <div className="spacer"></div>
+                <div className="standingman"></div>
+                <div className="awards">
+                    <h1>Licenses & Certifications</h1>
+                    <div className="card">
+                        <div className="card-header">
+                            <div className="circle" />
+                            <div className="circle" />
+                            <div className="circle" />
+                        </div>
+                        <div className="card-container">
+                        </div>
+                    </div>
+                </div>
+                <div className="extracurricular">
+                    <h1>Extra-Curricular Technical Learning</h1>
+                    <div className="card">
+                        <div className="card-header">
+                            <div className="circle" />
+                            <div className="circle" />
+                            <div className="circle" />
+                        </div>
+                        <div className="card-container">
+                            <h1> Hello </h1>
+                        </div>
+                    </div>
+                </div>
+                <div className="scroll-about-me" onClick={goToWorkExperience}>
+                    <p> Back To The Top </p>
+                    <i className="fas fa-chevron-up"></i>
                 </div>
             </div>
         </div>

@@ -124,6 +124,40 @@
             }
         }
     }
+
+    .certification{
+        max-height: 100vh;
+        height:100%;
+        position: relative;
+        scroll-snap-align: start;
+        .standingman{
+            display: none;
+        }
+        h1{
+            font-family: 'SweetPurple';
+            color: var(--color);
+            text-align: center;
+        }
+        .spacer{
+            height: 100px;
+        }
+        .awards{
+            .card{
+                height:100%;
+                .card-container{
+                    height: calc(50vh - 150px) ;
+                }
+            }
+        }
+        .extracurricular{
+            .card{
+                height:100%;
+                .card-container{
+                    height: calc(50vh - 150px);
+                }
+            }
+        }
+    }
     
     .scroll-about-me{
         position:absolute;
@@ -143,6 +177,32 @@
         font-size: 30px;
         margin-bottom: -15px;
       }
+}
+
+@media screen and (min-width: 960px) {
+    .certification{
+        display: flex;
+        padding-left: 200px;
+        padding-right: 200px;
+        .standingman{
+            display: block !important;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin-left: 10px;
+            content: var(--standingstaight);
+        }
+        .awards, .extracurricular{
+            width:100%;
+            margin-top: 100px;
+            .card{
+                height:100%;
+                .card-container{
+                    height: calc(100vh - 250px) !important;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 960px) {
