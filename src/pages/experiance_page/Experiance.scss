@@ -77,6 +77,52 @@
         height: 100vh;
         position: relative;
         scroll-snap-align: start;
+        display: flex;
+        width: 100%;
+        .university{
+            width: 100%;
+            flex: 0.4;
+            margin-top: auto;
+            margin-bottom: auto;
+            img{
+                width: 100%;
+            }
+            h1{
+                font-family: 'CliffordEighteen';
+                font-size: 75px;
+                text-align: center;
+                color: var(--color);
+                font-weight: 100;
+            }
+        }
+        .award{
+            width: 100%;
+            flex: 0.6;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding-right: 90px;
+            h1,h2{
+                font-family: 'CliffordEighteen';
+                color: var(--color);
+                text-align: center;
+                font-weight: 100;
+            }
+            h1{
+                font-size: 70px;
+            }
+            h2{
+                font-size: 50px;
+            }
+            p{
+                font-family: 'SimSun-ExtB';
+                color: var(--color);
+                font-size: 26px;
+                padding-top: 10px;
+            }
+            .bold{
+                font-weight: 600;
+            }
+        }
     }
     
     .scroll-about-me{
@@ -103,10 +149,39 @@
     .experience{
         .experience-cards{
             max-width: 238px;
+            .MeLeaning{
+                display: none;
+            }
         }
-    }
-    .MeLeaning{
-        display: none;
+        .experience-title{
+            font-size: 65px;
+        }
+        .education{
+            display: block;
+            .university{
+                padding-top: 100px;
+                img{
+                    display: none;
+                }
+                h1{
+                    font-size: 40px;
+                    padding-bottom: 10px;
+                }
+            }
+            .award{
+                h1{
+                    font-size: 20px;
+                }
+                h2{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 18px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+            }
+        }
     }
 }
 

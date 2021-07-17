@@ -8,6 +8,11 @@
     src: local('SweetPurple'), url(../../fonts/SweetPurple.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'CliffordEighteen';
+    src: local('CliffordEighteen'), url(../../fonts/CliffordEighteen.ttf) format('truetype');
+}
+
 :root{
     --LightBackground: #F7F7F7;
     --LightText:#707070;
