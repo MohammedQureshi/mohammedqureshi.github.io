@@ -13,6 +13,11 @@
     src: local('CliffordEighteen'), url(../../fonts/CliffordEighteen.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Rattman';
+    src: local('Rattman'), url(../../fonts/Rattman.ttf) format('truetype');
+}
+
 :root{
     --LightBackground: #F7F7F7;
     --LightText:#707070;
