@@ -177,6 +177,29 @@
       }
 }
 
+@media screen and (max-width: 1420px){
+    .experience{
+        .education{
+            .university{
+                h1{
+                    font-size: 55px;
+                }
+            }
+            .award{
+                h1{
+                    font-size: 40px;
+                }
+                h2{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 960px) {
     .certification{
         display: flex;

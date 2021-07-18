@@ -119,6 +119,17 @@
       }
 }
 
+@media screen and (max-width: 1420px){
+    .HomePage{
+        .WelcomeSection{
+            .Laptop{
+                width: 400px;
+                margin-bottom: 120px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 960px) {
     .HomePage{
         .WelcomeSection{
