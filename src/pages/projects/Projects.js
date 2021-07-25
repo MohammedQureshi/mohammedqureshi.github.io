@@ -3,8 +3,10 @@ import './Projects.scss'
 
 function Projects(){
     return(
-        <div>
-            <h1> PROJECTS </h1>
+        <div className="Projects">
+            <div className="Header">
+                <h1> Projects </h1>
+            </div>
         </div>
     )
 }
