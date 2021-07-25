@@ -11,10 +11,10 @@ function ContactMe(){
             </div>
             <div className="ContactDetails">
                 <h1>Get In Touch</h1>
-                    <p><a href="https://www.linkedin.com/in/mohammed-faisal-qureshi/">https://www.linkedin.com/in/mohammed-faisal-qureshi</a></p>
-                    <p><a href="mailto:mohammedqureshi2998@gmail.com">mohammedqureshi2998@gmail.com</a></p>
-                    <p><a href="https://github.com/MohammedQureshi">https://github.com/MohammedQureshi</a></p>
-                    <p><a href="https://www.instagram.com/mohammedfqureshi/">https://www.instagram.com/mohammedfqureshi</a></p>
+                    <p><a href="https://www.linkedin.com/in/mohammed-faisal-qureshi/" target="_blank" rel="noreferrer" >https://www.linkedin.com/in/mohammed-faisal-qureshi</a></p>
+                    <p><a href="mailto:mohammedqureshi2998@gmail.com" target="_blank" rel="noreferrer" >mohammedqureshi2998@gmail.com</a></p>
+                    <p><a href="https://github.com/MohammedQureshi" target="_blank" rel="noreferrer" >https://github.com/MohammedQureshi</a></p>
+                    <p><a href="https://www.instagram.com/mohammedfqureshi/" target="_blank" rel="noreferrer" >https://www.instagram.com/mohammedfqureshi</a></p>
             </div>
         </div>
     )
