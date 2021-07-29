@@ -2,8 +2,6 @@ import React from 'react'
 import CardItem from './CardItem'
 import './ProjectCard.scss'
 
-import sample from '../../images/projects/discordbot.png'
-
 import discordbot from '../../images/projects/discordbot.png'
 import lwjgl from '../../images/projects/lwjgl.png'
 import reactnativelogin from '../../images/projects/reactnativelogin.PNG'
