@@ -1,0 +1,215 @@
+.HomePage{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow:scroll;
+    overflow-x: hidden;
+    .WelcomeSection{
+        height: 100vh;
+        position: relative;
+        scroll-snap-align: start;
+        .MeStanding{
+            content: var(--standing);
+            bottom: 0;
+            margin-left: 50px;
+            position: absolute;
+            object-fit: cover;
+        }
+        .Laptop{
+            content: var(--laptop);
+            position: absolute;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: 100px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+        h1, h2{
+            font-family: "SweetPurple";
+            margin-left: 180px;
+            margin-bottom: 465px;
+            bottom: 0;
+            position: absolute;
+            color: (var(--color));
+            font-weight: 100;
+        }
+        h1{
+            font-size: 70px;
+        }
+        h2{
+            font-size: 40px;
+            margin-bottom: 430px;
+            margin-left: 220px;
+            
+
+        }
+        
+    }
+
+    .AboutMeSection{
+        height: 100vh;
+        position: relative;
+        scroll-snap-align: start;
+        .AboutMeText{
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            width: 50%;
+            margin-left: 50px;
+        }
+        .MeOnLaptop{
+            content: var(--onLaptop);
+            position: absolute;
+            top: 50%;
+            right: 0;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            margin-right: 150px;
+        }
+        h1{
+            color: (var(--color));
+            font-family: "SweetPurple";
+            font-size: 80px;
+        }
+        p{
+            color: (var(--color));
+            font-family: "SimSun-ExtB";
+            font-size: 30px;
+        }
+    }
+
+    .Skills{
+        height: 100vh;
+        position: relative;
+        scroll-snap-align: start;
+        .SkillSet{
+            max-width: 75%;
+            margin-left: auto;
+            margin-right: 100px;
+            padding-top: 150px;
+        }
+
+        .MeSitting{
+            content: var(--sitting);
+            bottom: 0;
+            margin-left: 50px;
+            position: absolute;
+            object-fit: cover;
+        }
+    }
+
+    .scroll-about-me{
+        position:absolute;
+        width:300px;
+        bottom:0px;
+        right:25%;
+        left:50%;
+        margin-left:-150px;
+        text-align: center;
+        font-size: 40px;
+        color: var(--color);
+        cursor: pointer;
+      }
+      
+      .scroll-about-me p{
+        font-family: 'CherishToday';
+        font-size: 30px;
+        margin-bottom: -15px;
+      }
+}
+
+@media screen and (max-width: 1420px){
+    .HomePage{
+        .WelcomeSection{
+            .Laptop{
+                width: 400px;
+                margin-bottom: 120px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .HomePage{
+        .WelcomeSection{
+            height: 100vh;
+            position: relative;
+            .MeStanding{
+                width: 100px;
+                margin-left: 10px;
+            }
+            .Laptop{
+                width: 350px;
+                margin-top: 120px;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+            }
+            h1, h2{
+                font-family: "SweetPurple";
+                margin-left: 90px;
+                margin-bottom: 270px;
+                bottom: 0;
+                position: absolute;
+                color: (var(--color));
+                font-weight: 100;
+            }
+            h1{
+                font-size: 40px;
+            }
+            h2{
+                font-size: 25px;
+                margin-bottom: 250px;
+                margin-left: 110px;
+                
+    
+            }
+        }
+
+    .AboutMeSection{
+        .AboutMeText{
+            top: 0 ;
+            -ms-transform: translateY(0) ;
+            transform: translateY(0) ;
+            width: 90% ;
+            margin-left: 10px ;
+            margin-top: 100px;
+        }
+        .MeOnLaptop{
+            top: revert;
+            right: revert;
+            position: absolute;
+            width: 300px;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+        h1{
+            font-size: 70px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .scroll-about-me{
+            p{
+                font-size: 30px;
+            }
+        }
+    }
+    
+    .Skills{
+        .SkillSet{
+            max-width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 100px;
+        }
+
+        .MeSitting{
+            width: 120px;
+            margin-left: 5px;
+        }
+    }
+}
+}

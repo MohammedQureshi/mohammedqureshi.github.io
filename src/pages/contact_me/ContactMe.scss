@@ -1,0 +1,57 @@
+.ContactMe{
+    padding-top: 65px;
+    h1{
+        font-family: "SweetPurple";
+        font-size: 70px;
+        color: var(--color);
+        margin: 20px;
+        font-weight: 100;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .standinghandpocket{
+        content: var(--standinghandpocket);
+        position: absolute;
+        bottom: 0;
+        padding-left: 20px;
+    }
+    p{
+        font-family: "SimSun-ExtB";
+        padding-left: 20px;
+        width: 65%;
+        font-size: 25px;
+        padding-bottom: 5px;
+        color: var(--color);
+    }
+    .ContactDetails{
+        position: absolute;
+        bottom: 0;
+        padding-left: 200px;
+        padding-bottom: 250px;;
+        width: 80%;
+        a{
+            text-decoration: none;
+            color: var(--color);
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .ContactMe{
+        .standinghandpocket{
+            width: 90px;
+            padding: 0;
+        }
+        p{
+            font-size: 20px;
+            width: 90%;
+        }
+        .ContactDetails{
+            position: relative;
+            padding: 0;
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}

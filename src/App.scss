@@ -1,0 +1,55 @@
+@import './components/shared/DefaultColours';
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #CCCCCC;
+    border-radius: 1rem;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #afafaf;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background: var(--background);
+}
+
+body.light{
+  --background: var(--LightBackground);
+  --color: var(--LightText);
+  --hover-color: var(--LightTextHover);
+  --switch: var(--LightSwitch);
+  --standing: var(--StandingLight);
+  --laptop: var(--LaptopLight);
+  --onLaptop: var(--LightOnLaptop);
+  --panel: var(--LightPanel);
+  --sitting: var(--LightSitting);
+  --meleaning: var(--MeStandingLight);
+  --standingstaight: var(--LightStanding);
+  --standinghandpocket: var(--LightStandingHandPocket);
+}
+
+body.dark {
+  --background: var(--DarkBackground);
+  --color: var(--DarkText);
+  --hover-color: var(--DarkTextHover);
+  --switch: var(--DarkSwitch);
+  --standing: var(--StandingDark);
+  --laptop: var(--LaptopDark);
+  --onLaptop: var(--DarkOnLaptop);
+  --panel: var(--DarkPanel);
+  --sitting: var(--DarkSitting);
+  --meleaning: var(--MeStandingDark);
+  --standingstaight: var(--DarkStanding);
+  --standinghandpocket: var(--DarkStandingHandPocket);
+}

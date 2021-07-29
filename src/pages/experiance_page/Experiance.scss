@@ -1,0 +1,273 @@
+.experience{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow:scroll;
+    overflow-x: hidden;
+    .top-panel{
+        height: 100vh;
+        position: relative;
+        scroll-snap-align: start;
+    }
+    .experience-title{
+        padding-top: 85px;
+        font-family: "SweetPurple";
+        font-size: 70px;
+        color: var(--color);
+        margin: 20px;
+        font-weight: 100;
+        text-align: left;
+    }
+    .work-experience{
+        display: flex;
+
+        .MeLeaning{
+            content: var(--meleaning);
+            position: absolute;
+            width: 200px;
+            bottom:0;
+            right: 0;
+            margin-right: -160px;
+            margin-bottom: -165px;
+        }
+
+        .left-slider{
+            margin-left:auto;
+            color: var(--color);
+            font-size: 50px;
+            z-index: 1;
+        }
+
+        .right-slider{
+            margin-right: auto;
+            color: var(--color);
+            font-size: 50px;
+            z-index: 1;
+        }
+
+        button{
+            background: none;
+            border:none;
+            cursor: pointer;
+            padding: 30px;
+        }
+    }
+    .experience-cards{
+        position: relative;
+        max-width: 1300px;
+        z-index: 1;
+        width: 75vw;
+        .experience-container{
+            scroll-snap-type: x mandatory;
+            display: flex;
+            height: calc(100vh - 350px);
+            max-width: 1300px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            scroll-behavior: smooth;
+            .work{
+                scroll-snap-align: start;
+                display: flex;
+            }
+            
+        }
+    }
+
+    .education{
+        height: 100vh;
+        position: relative;
+        scroll-snap-align: start;
+        display: flex;
+        width: 100%;
+        .university{
+            width: 100%;
+            flex: 0.4;
+            margin-top: auto;
+            margin-bottom: auto;
+            img{
+                width: 100%;
+            }
+            h1{
+                font-family: 'CliffordEighteen';
+                font-size: 75px;
+                text-align: center;
+                color: var(--color);
+                font-weight: 100;
+            }
+        }
+        .award{
+            width: 100%;
+            flex: 0.6;
+            margin-top: auto;
+            margin-bottom: auto;
+            padding-right: 90px;
+            h1,h2{
+                font-family: 'CliffordEighteen';
+                color: var(--color);
+                text-align: center;
+                font-weight: 100;
+            }
+            h1{
+                font-size: 70px;
+            }
+            h2{
+                font-size: 50px;
+            }
+            p{
+                font-family: 'SimSun-ExtB';
+                color: var(--color);
+                font-size: 26px;
+                padding-top: 10px;
+            }
+            .bold{
+                font-weight: 600;
+            }
+        }
+    }
+
+    .certification{
+        max-height: 100vh;
+        height:100%;
+        position: relative;
+        scroll-snap-align: start;
+        .standingman{
+            display: none;
+        }
+        h1{
+            font-family: 'SweetPurple';
+            color: var(--color);
+            text-align: center;
+        }
+        .spacer{
+            height: 100px;
+        }
+        .awards{
+            .card{
+                .card-container{
+                    height: calc(50vh - 150px) ;
+                }
+            }
+        }
+        .extracurricular{
+            .card{
+                .card-container{
+                    height: calc(50vh - 150px);
+                }
+            }
+        }
+    }
+    
+    .scroll-about-me{
+        position:absolute;
+        width:300px;
+        bottom:0px;
+        right:25%;
+        left:50%;
+        margin-left:-150px;
+        text-align: center;
+        font-size: 40px;
+        color: var(--color);
+        cursor: pointer;
+      }
+      
+      .scroll-about-me p{
+        font-family: 'CherishToday';
+        font-size: 30px;
+        margin-bottom: -15px;
+      }
+}
+
+@media screen and (max-width: 1420px){
+    .experience{
+        .education{
+            .university{
+                h1{
+                    font-size: 55px;
+                }
+            }
+            .award{
+                h1{
+                    font-size: 40px;
+                }
+                h2{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .certification{
+        display: flex;
+        padding-left: 200px;
+        padding-right: 200px;
+        .standingman{
+            display: block !important;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin-left: 10px;
+            content: var(--standingstaight);
+        }
+        .awards, .extracurricular{
+            width:100%;
+            margin-top: 100px;
+            .card{
+                .card-container{
+                    height: calc(100vh - 250px) !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .experience{
+        .experience-cards{
+            max-width: 238px;
+            .MeLeaning{
+                display: none;
+            }
+        }
+        .experience-title{
+            font-size: 65px;
+        }
+        .education{
+            display: block;
+            .university{
+                padding-top: 100px;
+                img{
+                    display: none;
+                }
+                h1{
+                    font-size: 40px;
+                    padding-bottom: 10px;
+                }
+            }
+            .award{
+                h1{
+                    font-size: 20px;
+                }
+                h2{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 18px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1900px){
+    .MeLeaning{
+        display: none;
+    }
+}

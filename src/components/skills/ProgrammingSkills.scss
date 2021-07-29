@@ -1,0 +1,88 @@
+.programmingskills{
+    .programmingskills-header{
+        height: 100%;
+        min-height: 25px;
+        max-height: 25px;
+        background-color: #0092FF;
+
+        .circle{
+            position: relative;
+            width: 15px;
+            height: 15px;
+            background-color: white;
+            border-radius: 100%;
+            display: inline-block;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+    }
+    .programmingskills-container{
+        height: 100%;
+        min-height: 60px;
+        background-color: var(--panel);
+        max-height: calc(100vh - 400px);
+        overflow-y: scroll;
+
+        .programmingskills-skils{
+            ul{
+                display: flex;
+                list-style-type: none;
+                flex-wrap: wrap;
+                margin-bottom: 15px;
+                li{
+                    padding: 15px;
+                    position: relative;
+                    svg{
+                        margin: 0 auto;
+                        width: 90px;
+
+                    }
+                    h3{
+                        text-align: center;
+                        color: var(--color);
+                        position: absolute;
+                        bottom: 0;
+                        left:0;
+                        right: 0;
+                    }
+                }
+            }
+        }
+        
+        h1{
+            padding-left: 15px;
+            font-family: "SweetPurple";
+            font-size: 80px;
+            color: var(--color)
+        }
+
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .programmingskills{
+        .programmingskills-container{
+            max-height: calc(100vh - 350px);
+            h1{
+                font-size: 50px;
+            }
+            .programmingskills-skils{
+                ul{
+                    li{
+                        padding: 20px;
+                        svg{
+                            margin: 0 auto;
+                            width: 40px;
+    
+                        }
+                        h3{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

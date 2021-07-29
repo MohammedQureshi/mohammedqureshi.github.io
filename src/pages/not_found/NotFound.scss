@@ -1,0 +1,27 @@
+@import '../../components/shared/DefaultColours';
+
+.PageNotFound{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+
+    .PageNotFoundContent{
+        margin-top: auto;
+        h1{
+            padding-top: 25%;
+            font-family: 'CherishToday';
+            color: var(--color);
+            font-size: 60px
+        }
+        a{
+            font-family: 'CherishToday';
+            color: var(--color);
+            font-size: 30px;
+            text-decoration: none;
+        }
+        a:hover{
+            color: var(--hover-color);
+        }
+    }
+
+}
