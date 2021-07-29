@@ -1,3 +1,2 @@
-#Mohammed Qureshi Portfolio 
-Github 
-Pages
+# Mohammed Qureshi Portfolio 
+Github - Pages
