@@ -1,6 +1,6 @@
 import "./App.scss";
 import Navbar from "./components/navbar/Navbar";
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import HomePage from './pages/home_page/HomePage'
 import ExperiancePage from "./pages/experiance_page/ExperiancePage";
 import Projects from "./pages/projects/Projects";

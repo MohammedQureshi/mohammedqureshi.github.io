@@ -5,6 +5,9 @@ import bandq from '../../images/company_logos/bandq.png'
 import edgehilluniversity from '../../images/company_logos/edgehilluniversity.png'
 import iqblade from '../../images/company_logos/iqblade.png'
 import notdisclosed from '../../images/company_logos/notdisclosed.png'
+import yozu from '../../images/company_logos/yozu.jpeg'
+import version1 from '../../images/company_logos/version1.jpeg'
+import hmcts from '../../images/company_logos/hmcts.jpeg'
 
 class WorkExperience{
     constructor(companyLogo, jobTitle, companyName, position, startDate, endDate,timeOverall, location, description){
@@ -27,11 +30,55 @@ function WorkExperienceList(){
             "Junior Software Engineer", 
             "Undisclosed", 
             "Full-Time", 
-            "June 2021", 
+            "July 2022", 
             "Present", 
             "Less than 1 Year",
+            "Remote", 
+            "Working as a contractor under the below company as a Junior Software Engineer. "
+        ),
+        new WorkExperience(
+            notdisclosed,
+            "Technology Consultant", 
+            "Undisclosed", 
+            "Full-Time", 
+            "July 2022", 
+            "Present", 
+            "Less than 1 Year",
+            "Remote", 
+            "As a Technology Consultant I have been assigned a project to work on with works with Java, Microservices, AWS and Angular and other services and I am commited to ensuring I do my best in learning and building features."
+        ),
+        new WorkExperience(
+            hmcts,
+            "Junior Software Engineer", 
+            "HMCTS", 
+            "Full-Time", 
+            "November 2021", 
+            "July 2022", 
+            "Less than 1 Year",
             "North West, England, United Kingdom", 
-            "As a Junior Software Engineer I will be working full-stack and this includes working on front end and backend and databases bugs or features, I am currently working with Ruby on Rails frontend and backend and also MySQL and further shall come along the line."
+            "I worked under contract at HMCTS though Version1 and I was working on the SSCS project and building features and working with mainly Java but also working with ExpressJS and Docker and bashscripts and other technologies."
+        ),
+        new WorkExperience(
+            version1,
+            "Junior Java Developer", 
+            "Version1", 
+            "Full-Time", 
+            "October 2022", 
+            "July 2022", 
+            "Less than 1 Year",
+            "North West, England, United Kingdom", 
+            "I worked as a Junor Java Developer on contracted projects at Version1 and learned the tech stack required for the projects and ensure I put my all in to build up as fast as I can and help the team."
+        ),
+        new WorkExperience(
+            yozu,
+            "Junior Software Developer", 
+            "Yozu", 
+            "Full-Time", 
+            "June 2021", 
+            "October 2021", 
+            "Less than 1 Year",
+            "North West, England, United Kingdom", 
+            "As a Junior Software Developer I will be working full-stack and this includes working on front end and backend and databases bugs or features, I am currently working with Ruby on Rails frontend and backend and also MySQL and further shall come along the line."
         ),
         new WorkExperience(
             beyondtrustlogo,

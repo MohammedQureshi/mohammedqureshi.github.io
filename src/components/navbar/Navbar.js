@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import "./Navbar.scss";
-import "../switch/Switch.scss";
-import Switch from '../switch/Switch'
+import "../Switch/Switch.scss";
+import Switch from '../Switch/Switch'
 
 import { Link, NavLink } from "react-router-dom";
 
